@@ -1,0 +1,88 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1
+  },
+  "1 debug pnpm:package-manifest": {
+    "initial": {
+      "name": "fastify",
+      "version": "1.0.0",
+      "description": "",
+      "main": "index.js",
+      "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+      },
+      "author": "",
+      "license": "ISC"
+    },
+    "prefix": "C:\\Users\\jrodrigues\\Desktop\\joshua\\fastify"
+  },
+  "2 debug pnpm:context": {
+    "currentLockfileExists": false,
+    "storeDir": "C:\\Users\\jrodrigues\\.pnpm-store\\v3",
+    "virtualStoreDir": "C:\\Users\\jrodrigues\\Desktop\\joshua\\fastify\\node_modules\\.pnpm"
+  },
+  "3 debug pnpm:stage": {
+    "prefix": "C:\\Users\\jrodrigues\\Desktop\\joshua\\fastify",
+    "stage": "resolution_started"
+  },
+  "4 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/uuid/8.3.2",
+    "wanted": {
+      "dependentId": ".",
+      "name": "uuid",
+      "rawSpec": "latest"
+    }
+  },
+  "5 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/uuid/8.3.2",
+    "requester": "C:\\Users\\jrodrigues\\Desktop\\joshua\\fastify",
+    "status": "resolved"
+  },
+  "6 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/uuid/8.3.2",
+    "requester": "C:\\Users\\jrodrigues\\Desktop\\joshua\\fastify",
+    "status": "found_in_store"
+  },
+  "7 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/fastify/4.3.0",
+    "wanted": {
+      "dependentId": ".",
+      "name": "fastify",
+      "rawSpec": "latest"
+    }
+  },
+  "8 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/fastify/4.3.0",
+    "requester": "C:\\Users\\jrodrigues\\Desktop\\joshua\\fastify",
+    "status": "resolved"
+  },
+  "9 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/fastify/4.3.0",
+    "size": 356483,
+    "status": "started"
+  },
+  "10 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/fastify/4.3.0",
+    "requester": "C:\\Users\\jrodrigues\\Desktop\\joshua\\fastify",
+    "status": "fetched"
+  },
+  "11 error pnpm": {
+    "code": "ERR_PNPM_FETCH_404",
+    "hint": "fastify-sawgger is not in the npm registry, or you have no permission to fetch it.\n\nNo authorization header was set for the request.",
+    "request": {
+      "url": "https://registry.npmjs.org/fastify-sawgger"
+    },
+    "response": {
+      "size": 0
+    },
+    "pkgName": "fastify-sawgger",
+    "pkgsStack": [],
+    "err": {
+      "name": "pnpm",
+      "message": "GET https://registry.npmjs.org/fastify-sawgger: Not Found - 404",
+      "code": "ERR_PNPM_FETCH_404",
+      "stack": "pnpm: GET https://registry.npmjs.org/fastify-sawgger: Not Found - 404\n    at RetryOperation._fn (C:\\Users\\jrodrigues\\AppData\\Roaming\\npm\\node_modules\\pnpm\\dist\\pnpm.cjs:85893:19)\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)"
+    }
+  }
+}
